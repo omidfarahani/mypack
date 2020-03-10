@@ -1,6 +1,5 @@
 {
     "name": "omidfarahani/mypack",
-    "description": "New package",
     "type": "library",
     "authors": [
         {
@@ -8,8 +7,6 @@
             "email": "omidrezav@gmail.com"
         }
     ],
-	"autoload": {
-        "psr-4": {"omidfarahani\\mypack\\": "src/"}
-    },
+    "minimum-stability": "stable",
     "require": {}
 }
