@@ -1,0 +1,15 @@
+{
+    "name": "omidfarahani/mypack",
+    "description": "New package",
+    "type": "library",
+    "authors": [
+        {
+            "name": "omidrezav",
+            "email": "omidrezav@gmail.com"
+        }
+    ],
+	"autoload": {
+        "psr-4": {"omidfarahani\\mypack\\": "src/"}
+    },
+    "require": {}
+}
